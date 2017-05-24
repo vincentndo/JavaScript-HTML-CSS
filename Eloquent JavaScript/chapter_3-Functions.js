@@ -30,7 +30,7 @@ console.log(isEven(-1))
 /* Count how many characters k in the string
    */
 var countChar = function(str, k) {
-	ret = 0
+	var ret = 0
 	for (var i = 0; i < str.length; i++) {
 		if (k == str.charAt(i)) {
 			ret++
